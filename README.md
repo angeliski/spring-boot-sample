@@ -6,7 +6,7 @@ That project nowadays use the the following technologies:
 
  - Spring Boot
  - Spring MVC
- -  Swagger API
+ - Swagger API
  
  You can test this. Get the project and run in the root **mvn spring-boot:run**.
 
