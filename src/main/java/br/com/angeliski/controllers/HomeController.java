@@ -15,7 +15,7 @@ import br.com.angeliski.entidades.Livro;
 public class HomeController {
 
 	@RequestMapping(method = RequestMethod.GET, value = "getBook")
-	public @ResponseBody Livro sayHello(
+	public @ResponseBody Livro getBook(
 			@RequestParam(value = "name", required = false, defaultValue = "Harry Potter") String name) {
 
 		Livro livro = new Livro();
